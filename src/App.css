@@ -1,4 +1,3 @@
-
 :root {
   --heavy-border: 2px solid black;
 }
@@ -34,7 +33,9 @@
 }
 
 /* heavy border on the top of each row */
-.A.square, .D.square, .G.square {
+.A.square,
+.D.square,
+.G.square {
   border-top: var(--heavy-border);
 }
 

@@ -1,13 +1,12 @@
-
 /**
  * Solves the whole board based on the current game state
  * And throws an error if it lacks a unique solution
  * @returns {Array} newState
  */
 export const solveBoard = (oldState) => {
-  const newState = [...oldState]
-  return newState
-}
+  const newState = [...oldState];
+  return newState;
+};
 
 /**
  * Checks if the board follows the basic rules of sudoku
@@ -16,5 +15,5 @@ export const solveBoard = (oldState) => {
  * @returns {Boolean}
  */
 export const validateBoard = (state) => {
-  return true
-}
+  return true;
+};
