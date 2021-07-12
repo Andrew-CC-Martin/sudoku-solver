@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import initialStates from "./constants/initial-states.json";
+import initialStates from "./constants/game-states.json";
 import { digits } from "./constants/constants";
-import { solveBoard, validateBoard } from "./utils";
+import { solveBoard, validateBoard, validateSquare } from "./utils";
 import "./App.css";
 
 // const { blank } = initialStates
@@ -29,14 +29,15 @@ export const App = () => {
     setSquares((prevState) => {
       const newState = [...prevState];
       // update the square by creating a new object, so we don't mutate the old nested object
-      newState[index] = {
+      const newSquare = {
         location: prevState[index].location,
         value: newValue,
       };
-      const isValid = validateBoard(newState);
+      const isValid = validateSquare(newSquare, newState);
 
-      // if the new square is valid, then allow it
+      // if the new square is valid, then add it
       if (isValid) {
+        newState[index] = newSquare;
         return newState;
       }
 
