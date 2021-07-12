@@ -1,6 +1,21 @@
-# Getting Started with Create React App
+# Sudoku solver
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+
+### MVP
+
+- Can use to solve sudokus, with no constraints/help ✅
+
+### Extra features
+
+- Won't allow updates that break the basic rules of sudoku
+- can save current board state to local storage
+- Will solve the whole board for you
+- Can put multiple numbers in each square. When > 1 nubmer in a square:
+  - square is treated as empty for validation purposes
+  - the numbers become much smaller
+
+# Create React App auto-generated readme
 
 ## Available Scripts
 

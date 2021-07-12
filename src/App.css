@@ -1,3 +1,8 @@
+
+:root {
+  --heavy-border: 2px solid black;
+}
+
 .board {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
@@ -5,7 +10,35 @@
 }
 
 .square {
-  width: 30px;
-  height: 30px;
+  height: 60px;
+  width: 60px;
+  /* light border around each square */
+  border: 1px solid grey;
 }
 
+@media (max-width: 600px) {
+  .square {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+/* heavy border to the right of each box */
+.square:nth-child(3n) {
+  border-right: var(--heavy-border);
+}
+
+/* heavy border on the left of board */
+.square:nth-child(9n - 8) {
+  border-left: var(--heavy-border);
+}
+
+/* heavy border on the top of each row */
+.A.square, .D.square, .G.square {
+  border-top: var(--heavy-border);
+}
+
+/* heavy border on the bottom of the board */
+.I.square {
+  border-bottom: var(--heavy-border);
+}

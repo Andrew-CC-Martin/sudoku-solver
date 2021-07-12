@@ -40,18 +40,17 @@ export const App = () => {
         return (newState)
       }
 
-      // else, jsut return the previous state
+      // else, just return the previous state
       return prevState
     })
   }
-
 
   return (
     <>
       <h1>Sudoku Solver</h1>
       <div className="board">
         {squares.map(({ location, value }, index) => (
-          <input className="square" key={location} type="text" value={value} onChange={(e, location) => updateSquare(e, location, index)} />
+          <input className={`square ${location[0]}`} key={location} type="text" value={value} onChange={(e, location) => updateSquare(e, location, index)} />
         ))}
       </div>
       <button onClick={solveBoard}>Solve</button>
