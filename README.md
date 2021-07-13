@@ -12,10 +12,10 @@
   - more advanced version: allow updates, but show error state
 - can save current board state to local storage ✅
 - Will solve the whole board for you
-- Can put multiple numbers in each square. When > 1 nubmer in a square:
+- Can put multiple numbers in each square. When > 1 number in a square:
   - square is treated as empty for validation purposes
   - the numbers become much smaller
-- prevent original game squares from being deleted (so that solution is always correct based on intial conditions)
+- prevent original game squares from being deleted (so that solution is always correct based on intial conditions) ✅
 
 # Create React App auto-generated readme
 

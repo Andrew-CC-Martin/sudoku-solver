@@ -24,25 +24,34 @@ xdescribe("solveBoard", () => {
   });
 });
 
-xdescribe("validateBoard", () => {
-  test("It returns false if the board has a digit twice in any row, column, or box", () => {
+describe("validateBoard", () => {
+  test("It returns true for a compliant game board", () => {
     const testState = game1;
     expect(validateBoard(testState)).toBe(true);
   });
 
-  xtest("It returns true for a compliant game board", () => {
-    const testState = [];
+  test("It returns false if the board has a digit twice in any row, column, or box", () => {
+    const testState = [...game1];
+    testState[2] = {
+      location: "A3",
+      value: "5",
+      initial: false,
+    };
     expect(validateBoard(testState)).toBe(false);
   });
 });
 
 describe("validateSquare", () => {
-  xtest("It returns false if the square has a digit already present in its row, column, or box", () => {
+  test("It returns false if the square has a digit already present in its row, column, or box", () => {
+    const newSquare = {
+      location: "A3",
+      value: "8",
+    };
     const testState = game1;
-    expect(validateSquare(testState)).toBe(false);
+    expect(validateSquare(newSquare, testState)).toBe(false);
   });
 
-  xtest("It returns true for a compliant square", () => {
+  test("It returns true for a compliant square", () => {
     const newSquare = {
       location: "A3",
       value: "1",

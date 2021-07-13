@@ -12,12 +12,17 @@ export const solveBoard = (oldState) => {
 /**
  * Checks if the board follows the basic rules of sudoku
  * ie no digit may appear more than once per row, column, or 3x3 block
+ * validate every square
+ * if all squares valid, findIndex will return -1
  * @param {Array} state
  * @returns {Boolean}
  */
-export const validateBoard = (state) => {
-  return true;
-};
+export const validateBoard = (state) =>
+  state
+    // only check the squares that actually have a value
+    .filter((square) => square.value)
+    // If there are no invalid squares, it won't find any, and return -1
+    .findIndex((square) => !validateSquare(square, state)) === -1;
 
 /**
  * Checks if the square follows the basic rules of sudoku
