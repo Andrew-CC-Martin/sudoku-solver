@@ -2,653 +2,815 @@
   "blank": [
     {
       "location": "A1",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "A2",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "A3",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "A4",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "A5",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "A6",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "A7",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "A8",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "A9",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "B1",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "B2",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "B3",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "B4",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "B5",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "B6",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "B7",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "B8",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "B9",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "C1",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "C2",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "C3",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "C4",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "C5",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "C6",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "C7",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "C8",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "C9",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "D1",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "D2",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "D3",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "D4",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "D5",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "D6",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "D7",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "D8",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "D9",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "E1",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "E2",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "E3",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "E4",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "E5",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "E6",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "E7",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "E8",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "E9",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "F1",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "F2",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "F3",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "F4",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "F5",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "F6",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "F7",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "F8",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "F9",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "G1",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "G2",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "G3",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "G4",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "G5",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "G6",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "G7",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "G8",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "G9",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "H1",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "H2",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "H3",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "H4",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "H5",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "H6",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "H7",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "H8",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "H9",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "I1",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "I2",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "I3",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "I4",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "I5",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "I6",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "I7",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "I8",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "I9",
-      "value": " "
+      "value": " ",
+      "initial": false
     }
   ],
   "game1": [
     {
       "location": "A1",
-      "value": "5"
+      "value": "5",
+      "initial": true
     },
     {
       "location": "A2",
-      "value": "3"
+      "value": "3",
+      "initial": true
     },
     {
       "location": "A3",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "A4",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "A5",
-      "value": "7"
+      "value": "7",
+      "initial": true
     },
     {
       "location": "A6",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "A7",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "A8",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "A9",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "B1",
-      "value": "6"
+      "value": "6",
+      "initial": true
     },
     {
       "location": "B2",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "B3",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "B4",
-      "value": "1"
+      "value": "1",
+      "initial": true
     },
     {
       "location": "B5",
-      "value": "9"
+      "value": "9",
+      "initial": true
     },
     {
       "location": "B6",
-      "value": "5"
+      "value": "5",
+      "initial": true
     },
     {
       "location": "B7",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "B8",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "B9",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "C1",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "C2",
-      "value": "9"
+      "value": "9",
+      "initial": true
     },
     {
       "location": "C3",
-      "value": "8"
+      "value": "8",
+      "initial": true
     },
     {
       "location": "C4",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "C5",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "C6",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "C7",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "C8",
-      "value": "6"
+      "value": "6",
+      "initial": true
     },
     {
       "location": "C9",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "D1",
-      "value": "8"
+      "value": "8",
+      "initial": true
     },
     {
       "location": "D2",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "D3",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "D4",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "D5",
-      "value": "6"
+      "value": "6",
+      "initial": true
     },
     {
       "location": "D6",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "D7",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "D8",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "D9",
-      "value": "3"
+      "value": "3",
+      "initial": true
     },
     {
       "location": "E1",
-      "value": "4"
+      "value": "4",
+      "initial": true
     },
     {
       "location": "E2",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "E3",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "E4",
-      "value": "8"
+      "value": "8",
+      "initial": true
     },
     {
       "location": "E5",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "E6",
-      "value": "3"
+      "value": "3",
+      "initial": true
     },
     {
       "location": "E7",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "E8",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "E9",
-      "value": "1"
+      "value": "1",
+      "initial": true
     },
     {
       "location": "F1",
-      "value": "7"
+      "value": "7",
+      "initial": true
     },
     {
       "location": "F2",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "F3",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "F4",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "F5",
-      "value": "2"
+      "value": "2",
+      "initial": true
     },
     {
       "location": "F6",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "F7",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "F8",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "F9",
-      "value": "6"
+      "value": "6",
+      "initial": true
     },
     {
       "location": "G1",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "G2",
-      "value": "6"
+      "value": "6",
+      "initial": true
     },
     {
       "location": "G3",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "G4",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "G5",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "G6",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "G7",
-      "value": "2"
+      "value": "2",
+      "initial": true
     },
     {
       "location": "G8",
-      "value": "8"
+      "value": "8",
+      "initial": true
     },
     {
       "location": "G9",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "H1",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "H2",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "H3",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "H4",
-      "value": "4"
+      "value": "4",
+      "initial": true
     },
     {
       "location": "H5",
-      "value": "1"
+      "value": "1",
+      "initial": true
     },
     {
       "location": "H6",
-      "value": "9"
+      "value": "9",
+      "initial": true
     },
     {
       "location": "H7",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "H8",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "H9",
-      "value": "5"
+      "value": "5",
+      "initial": true
     },
     {
       "location": "I1",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "I2",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "I3",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "I4",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "I5",
-      "value": "8"
+      "value": "8",
+      "initial": true
     },
     {
       "location": "I6",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "I7",
-      "value": " "
+      "value": " ",
+      "initial": false
     },
     {
       "location": "I8",
-      "value": "7"
+      "value": "7",
+      "initial": true
     },
     {
       "location": "I9",
-      "value": "9"
+      "value": "9",
+      "initial": true
     }
   ]
 }

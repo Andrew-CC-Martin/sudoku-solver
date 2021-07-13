@@ -67,13 +67,14 @@ export const App = () => {
     <>
       <h1>Sudoku Solver</h1>
       <div className="board">
-        {squares.map(({ location, value }, index) => (
+        {squares.map(({ location, value, initial }, index) => (
           <input
             className={`square ${location[0]}`}
             key={location}
             type="text"
             value={value}
             onChange={(e, location) => updateSquare(e, location, index)}
+            disabled={initial}
           />
         ))}
       </div>
