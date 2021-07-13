@@ -8,9 +8,9 @@
 
 ### Extra features
 
-- Won't allow updates that break the basic rules of sudoku
+- Won't allow updates that break the basic rules of sudoku ✅
   - more advanced version: allow updates, but show error state
-- can save current board state to local storage
+- can save current board state to local storage ✅
 - Will solve the whole board for you
 - Can put multiple numbers in each square. When > 1 nubmer in a square:
   - square is treated as empty for validation purposes

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import initialStates from "./constants/game-states.json";
 import { digits } from "./constants/constants";
@@ -11,6 +11,22 @@ const { game1 } = initialStates;
 export const App = () => {
   const [squares, setSquares] = useState(game1);
 
+  // on component load, initialise using local storage if it's available
+  useEffect(() => {
+    const saved = localStorage.getItem("sudokuBoard");
+    if (saved) {
+      // setSquares(saved)
+      setSquares(JSON.parse(saved));
+    }
+  }, []);
+
+  // whenever the board game updates, save it to local storage
+  useEffect(() => {
+    localStorage.setItem("sudokuBoard", JSON.stringify(squares));
+  }, [squares]);
+
+  const reset = () => setSquares(game1);
+
   const updateSquare = (e, _location, index) => {
     // get number from the input
     let newValue = e.target.value.trim();
@@ -19,6 +35,7 @@ export const App = () => {
     if (newValue.length > 1) {
       newValue = newValue[1];
     }
+    // todo - allow empty newValue (so squares can be deleted)
     // check it's a digit 1-9
     if (!digits.includes(newValue)) {
       // if not, reject
@@ -60,7 +77,11 @@ export const App = () => {
           />
         ))}
       </div>
-      <button onClick={solveBoard}>Solve</button>
+
+      <div>
+        <button onClick={reset}>Reset</button>
+        <button onClick={solveBoard}>Solve</button>
+      </div>
     </>
   );
 };
