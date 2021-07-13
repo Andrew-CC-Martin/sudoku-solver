@@ -15,6 +15,7 @@
 - Can put multiple numbers in each square. When > 1 nubmer in a square:
   - square is treated as empty for validation purposes
   - the numbers become much smaller
+- prevent original game squares from being deleted (so that solution is always correct based on intial conditions)
 
 # Create React App auto-generated readme
 

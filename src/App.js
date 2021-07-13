@@ -35,9 +35,9 @@ export const App = () => {
     if (newValue.length > 1) {
       newValue = newValue[1];
     }
-    // todo - allow empty newValue (so squares can be deleted)
-    // check it's a digit 1-9
-    if (!digits.includes(newValue)) {
+    // allow empty newValue (so squares can be deleted)
+    // and check it's a digit 1-9
+    if (newValue.length !== 0 && !digits.includes(newValue)) {
       // if not, reject
       return null;
     }
