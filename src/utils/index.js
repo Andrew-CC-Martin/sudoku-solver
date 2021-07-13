@@ -43,6 +43,10 @@ export const validateSquare = (newSquare, state) => {
   if (!columnValid) return false;
 
   // check square against its block
+  const block = getBlock(newSquare, state);
+  const blockValid = validateBlock(newSquare, block);
+  if (!blockValid) return false;
+
   // if we pass all the validations, return true
   return true;
 };
@@ -101,3 +105,44 @@ export const getColumn = (newSquare, state) =>
  */
 export const validateColumn = (newSquare, column) =>
   column.findIndex((colSquare) => colSquare.value === newSquare.value) < 0;
+
+/**
+ * gets the 3x3 block for a given square
+ * @param {Object} newSquare
+ * @param {Array} state
+ * @returns {Array}
+ */
+export const getBlock = (newSquare, state) => {
+  // blocks have rows A-C, D-F, or G-I
+  const blockRows = ["ABC", "DEF", "GHI"];
+  // blocks have columns 1-3, 4-6, or 7-9
+  const blockCols = ["123", "456", "789"];
+
+  // find index of new square's row
+  const newSquareRow = blockRows.findIndex((blockRow) =>
+    blockRow.includes(newSquare.location[0])
+  );
+  // find index of new square's col
+  const newSquareCol = blockCols.findIndex((blockCol) =>
+    blockCol.includes(newSquare.location[1])
+  );
+
+  // Use those indices to get all the squares with matching location
+  const block = state.filter(
+    (square) =>
+      square.location !== newSquare.location &&
+      blockRows[newSquareRow].includes(square.location[0]) &&
+      blockCols[newSquareCol].includes(square.location[1])
+  );
+
+  return block;
+};
+
+/**
+ * validates that a given square's value is not already present in that block
+ * @param {Object} newSquare
+ * @param {Array} block
+ * @returns {Boolean}
+ */
+export const validateBlock = (newSquare, block) =>
+  block.findIndex((blockSquare) => blockSquare.value === newSquare.value) < 0;

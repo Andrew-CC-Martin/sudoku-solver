@@ -6,6 +6,8 @@ import {
   getColumn,
   validateRow,
   validateColumn,
+  getBlock,
+  validateBlock,
 } from ".";
 import { game1 } from "../constants/game-states.json";
 
@@ -130,5 +132,45 @@ describe("validateColumn", () => {
     const testColumn = getColumn(newSquare, game1);
 
     expect(validateColumn(newSquare, testColumn)).toBe(true);
+  });
+});
+
+describe("getBlock", () => {
+  test("It gets an Array, representing the block for a given square", () => {
+    const testState = game1;
+    const newSquare = {
+      location: "A3",
+      value: "1",
+    };
+    const block = getBlock(newSquare, testState);
+    // expect length 8, as row doesn't include the new square
+    expect(block.length).toBe(8);
+    // expect newSquare to not be in row
+    const filtered = block.filter(
+      (square) => square.location === newSquare.location
+    );
+    expect(filtered.length).toBe(0);
+  });
+});
+
+describe("validateBlock", () => {
+  test("It returns false if a square's value is already present in its block", () => {
+    const newSquare = {
+      location: "A3",
+      value: "6",
+    };
+    const testBlock = getBlock(newSquare, game1);
+
+    expect(validateBlock(newSquare, testBlock)).toBe(false);
+  });
+
+  test("It returns true if a square's value is not present in its block", () => {
+    const newSquare = {
+      location: "A3",
+      value: "1",
+    };
+    const testBlock = getBlock(newSquare, game1);
+
+    expect(validateBlock(newSquare, testBlock)).toBe(true);
   });
 });
